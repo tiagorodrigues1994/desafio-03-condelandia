@@ -4,11 +4,13 @@
     padding: 0;
     box-sizing: border-box;
     outline: 1px solid red;
+    
 }
 
 
 body{
     width: 100%;
+    background-color: rgb(238, 238, 238);
    
 }
 
@@ -17,8 +19,12 @@ header{
   
 }
 
+
+
+
 .img-01{
-    max-width: 18rem;
+    max-width: 22.5rem;
+    
 }
 
 .cabecalho{
@@ -38,8 +44,8 @@ header{
 .cabecalho h1{
     padding: 3.4rem 1.3rem 1.2rem;
     font-size: clamp(2rem, 2.5vw, 2.3rem);
-    
     font-weight: 400;
+    
     
 }
 .cabecalho p{
@@ -59,4 +65,46 @@ header{
 
 .firt-img{
     padding-bottom: 6.4rem;
+    
+    
+}
+main{
+   padding-top:  5.7rem;
+   
+   
+}
+.grid-class{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+    gap: 1rem;
+    max-width: 1440px;
+   
+}
+
+.card{
+    padding: 33px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 375px;
+    background: white;
+    margin: 30px 20px 20px 20px;
+    box-shadow:  0 1px 16px 0px#888;
+    
+    
+}
+
+
+
+
+.info-img h1{
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 24px 0 26px;
+}
+
+.info-img p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 30px;
 }
